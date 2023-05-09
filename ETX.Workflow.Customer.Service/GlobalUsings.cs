@@ -1,0 +1,16 @@
+﻿global using ETX.Workflow.Customer.Application;
+global using ETX.Workflow.Customer.Application.Contracts.Infrastructure;
+global using ETX.Workflow.Customer.Application.Extensions;
+global using ETX.Workflow.Customer.Application.Features.Handlers.Commands;
+global using ETX.Workflow.Customer.Application.Features.Requests;
+global using ETX.Workflow.Customer.Application.Infrastructure;
+global using ETX.Workflow.Customer.Infrastructure.Extensions;
+global using ETX.Workflow.Customer.Persistence.Configurations;
+global using ETX.Workflow.Customer.Persistence.Extensions;
+global using ETX.Workflow.Customer.Service;
+global using MediatR;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Hosting;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Reflection;
+global using System.Threading.Tasks;

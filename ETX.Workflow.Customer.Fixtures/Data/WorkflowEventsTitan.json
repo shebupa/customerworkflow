@@ -1,0 +1,9 @@
+[
+  {
+    "Id": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','TradeDate:'2022-01-26 01:44:05.137','Curency': 'GBP'}}"
+  }
+]

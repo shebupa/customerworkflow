@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "017565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 1,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '1','StatusDescription': 'Pending'}}"
+  },
+  {
+    "Id": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 2,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '3','StatusDescription': 'Lead'}}"
+  },
+  {
+    "Id": "037565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 3,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '1','StatusDescription': 'Pending'}}"
+  },
+  {
+    "Id": "047565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 4,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '4','StatusDescription': 'Authorised'}}"
+  },
+  {
+    "Id": "057565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 5,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'DepositDetails': {'FirstDepositAmount': '1000','FirstDepositCurrency': 'GBP'}}"
+  },
+  {
+    "Id": "9E8AF234-7DC5-437C-AE0E-C3A89CA553B5",
+    "CustomerId": "29880",
+    "EventTypeId": 1,
+    "EventDateTime": "2022-03-16 11:45:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '1','StatusDescription': 'Pending'}}"
+  }
+]

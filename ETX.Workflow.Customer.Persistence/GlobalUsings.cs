@@ -1,0 +1,16 @@
+﻿global using Dapper;
+global using ETX.Workflow.Customer.Application.Constants;
+global using ETX.Workflow.Customer.Application.Contracts;
+global using ETX.Workflow.Customer.Application.Contracts.Persistence;
+global using ETX.Workflow.Customer.Application.Persistence;
+global using ETX.Workflow.Customer.Domain.Models;
+global using ETX.Workflow.Customer.Persistence.Configurations;
+global using ETX.Workflow.Customer.Persistence.Factories;
+global using ETX.Workflow.Customer.Persistence.Repositories;
+global using ETX.Workflow.Customer.Persistence.Repositories.SchemaDefinitions;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Data;
+global using System.Diagnostics.CodeAnalysis;

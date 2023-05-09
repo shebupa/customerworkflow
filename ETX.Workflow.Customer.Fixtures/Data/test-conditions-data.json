@@ -1,0 +1,187 @@
+{
+  "CustomerWorkflowRequest": {
+    "CustomerId": "29879"
+  },
+
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Demo": {
+    "Id": "017565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 1,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '1','StatusDescription': 'Pending'}}"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Join": {
+    "Id": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 2,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '3','StatusDescription': 'Lead'}}"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Completed": {
+    "Id": "037565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 3,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '1','StatusDescription': 'Pending'}}"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Authorised": {
+    "Id": "047565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 4,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails':{'StatusId': '4','StatusDescription': 'Authorised'}}"
+  },
+  "CustomerWorkflowRequest_BuildFirstDepositWorkflow": {
+    "Id": "057565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 5,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'DepositDetails': {'DepositAmount': '1000','DepositCurrency': 'GBP'}}"
+  },
+  "CustomerWorkflowRequest_BuildFirstTradeWorkflow": {
+    "Id": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','TradeDate:'2022-01-26 01:44:05.137','Curency': 'GBP'}}"
+  },
+  "CustomerWorkflowRequest_BuildFirstTrade": {
+    "Id": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','MarketName':'FTSE','TradeDate':'2022-01-26 01:44:05.137','TradeCurrency': 'GBP'}}"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Demo_Update": {
+    "Id": "017565CD-1B7C-4575-93C3-1D952E6203F5"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Join_Update": {
+    "Id": "027565CD-1B7C-4575-93C3-1D952E6203F5"
+  },
+  "CustomerWorkflowRequest_BuildRegistrationStatusWorkflow_Completed_Update": {
+    "Id": "027565CD-1B7C-4575-93C3-1D952E6203F5"
+  },
+  "CustomerWorkflowRequest_BuildFirstTradeWorkflow_Update": {
+    "Id": "067565CD-1B7C-4575-93C3-1D952E6203F5"
+  },
+  "WorkflowEvents_BuildFirstDepositWorkflow": {
+    "CustomerWorkflowId": "017565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 5,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'DepositDetails': {'DepositAmount': '1000','DepositCurrency': 'GBP'}}"
+  },
+  "WorkflowEvents_BuildRegistrationStatusWorkflow": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 2,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails' :{ 'StatusId' :'3','StatusDescription' :'Lead'}}"
+  },
+  "WorkflowEvents_BuildFirstTradeWorkflow": {
+    "CustomerWorkflowId": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','MarketName':'FTSE','TradeDate':'2022-01-26 01:44:05.137','TradeCurrency': 'GBP'}}"
+  },
+  "CreateFirstDepositCommandRequest_BuildFirstDepositWorkflowEvent": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 5,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'DepositDetails': {'DepositAmount': '1000','DepositCurrency': 'GBP'}}"
+  },
+  "CreateRegistrationStatusCommandRequest_BuildRegistrationStatusWorkflowEvent": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventTypeId": 1,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails' :{ 'StatusId' :'3','StatusDescription' :'Lead'}}"
+  },
+  "CreateFirstTradeCommandRequest_BuildFirstTradeWorkflowEvent": {
+    "CustomerWorkflowId": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','MarketName':'FTSE','TradeDate':'2022-01-26 01:44:05.137','TradeCurrency': 'GBP'}}"
+  },
+  "CreateFirstDepositCommandRequest_BuildFirstDepositWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": null,
+    "EventTypeId": 5,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'DepositDetails': {'DepositAmount': '1000','DepositCurrency': 'GBP'}}"
+  },
+  "CreateRegistrationStatusCommandRequest_BuildRegistrationStatusWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": null,
+    "EventTypeId": 1,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'RegistrationDetails' :{ 'StatusId' :'3','StatusDescription' :'Lead'}}"
+  },
+  "CreateFirstTradeCommandRequest_BuildFirstTradeWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": null,
+    "EventTypeId": 6,
+    "EventDateTime": "2022-01-26 01:44:05.137",
+    "EventDetails": "{'TradeDetails':{'ClientId': '29881','MarketName':'FTSE','TradeDate':'2022-01-26 01:44:05.137','TradeCurrency': 'GBP'}}"
+  },
+  "CreateFirstDepositCommandResponse_BuildFirstDepositWorkflowEvent": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventValue": {
+      "Currency": "GBP",
+      "Amount": "1000"
+    }
+  },
+  "CreateRegistrationStatusCommandResponse_BuildRegistrationStatusWorkflowEvent": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventName": "Demo",
+    "EventValue": {
+      "StatusId": 3,
+      "StatusDescription": "Lead"
+    }
+  },
+  "CreateFirstTradeCommandResponse_BuildFirstTradeWorkflowEvent": {
+    "CustomerWorkflowId": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "vqp21738",
+    "EventName": "FirstTrade",
+    "EventValue": {
+      "ClientId": "29881",
+      "TradeDate": "2022-01-26 01:44:05.137",
+      "Currency": "GBP",
+      "MarketName": "FTSE"
+    }
+  },
+  "CreateFirstDepositCommandResponse_BuildFirstDepositWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventName": "FirstDeposit",
+    "EventValue": {
+      "Currency": null,
+      "Amount": 0
+    }
+  },
+  "CreateRegistrationStatusCommandResponse_BuildRegistrationStatusWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "027565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": "29879",
+    "EventName": "Demo",
+    "EventValue": {
+      "StatusId": 3,
+      "StatusDescription": null
+    }
+  },
+  "CreateFirstTradeCommandResponse_BuildFirstTradeWorkflowEvent_Invalid": {
+    "CustomerWorkflowId": "067565CD-1B7C-4575-93C3-1D952E6203F5",
+    "CustomerId": null,
+    "EventName": "FirstTrade",
+    "EventValue": {
+      "ClientId": null,
+      "TradeDate": "2022-01-26 01:44:05.137",
+      "Currency": null,
+      "MarketName": "FTSE"
+    }
+  }
+}

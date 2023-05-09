@@ -1,0 +1,10 @@
+﻿global using ETX.Workflow.Customer.Application;
+global using ETX.Workflow.Customer.Application.Contracts.Infrastructure;
+global using ETX.Workflow.Customer.Fixtures.Configurations;
+global using ETX.Workflow.Customer.Persistence.Configurations;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Hosting;
+global using Moq;
+global using Shouldly;
+global using System.Diagnostics.CodeAnalysis;
+global using Xunit;
